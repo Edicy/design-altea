@@ -1,0 +1,103 @@
+{
+  "assets": [
+    {
+      "filename": "layout.css",
+      "file": "stylesheets/layout.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "style.css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "bottom.gif",
+      "file": "images/bottom.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "submit.gif",
+      "file": "images/submit.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "textarea.gif",
+      "file": "images/textarea.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "textbox.gif",
+      "file": "images/textbox.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    }
+  ],
+  "preview_medium": "http://static.edicy.com/designs/previews/altea_medium.png",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "title": "Common page",
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Blog & News",
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "component": false,
+      "content_type": "blog"
+    },
+    {
+      "title": "Blog article",
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "component": false,
+      "content_type": "blog_article"
+    },
+    {
+      "title": "Langmenu",
+      "file": "components/langmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Mainmenu",
+      "file": "components/mainmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "SiteHeader",
+      "file": "components/siteheader.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Front page",
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "JS",
+      "file": "components/js.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    }
+  ],
+  "preview_small": "http://static.edicy.com/designs/previews/altea_small.jpg",
+  "name": "Altea",
+  "description": "Altea"
+}

@@ -1,0 +1,85 @@
+body {
+  background: white;
+  font: normal 14px/22px Arial, Helvetica, sans-serif;
+  color: #132735;
+}
+
+a img {
+      border: none;
+}
+
+.textbox {
+  font: normal 12px/14px Arial, Helvetica, sans-serif;
+  background: url('../images/textbox.gif?1') no-repeat;
+  color: #132735;
+  padding: 4px 3px;
+}
+
+.textarea {
+  font: normal 12px/14px Arial, Helvetica, sans-serif;
+  background: url('../images/textarea.gif?1') no-repeat;
+  color: #132735;
+  padding: 4px 3px;
+}
+
+.submit {
+  font: normal 16px/26px Arial, Helvetica, sans-serif;
+  color: #4a9cd5;
+  width: 170px;
+  height: 30px;
+  background: url('../images/submit.gif?1') no-repeat;
+}
+
+a {
+  color: #499cd5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.gray {
+  color: #c0bfbf;
+}
+
+.blue {
+  color: #499cd5;
+}
+
+#header {
+  font-size: 50px;
+  line-height: 55px;
+  color: #499cd6;
+  font-weight: bold;
+}
+
+#langmenu a {
+  color: #132735;
+}
+
+#langmenu a.active {
+  font-weight: bold;
+  color: #499cd5;
+}
+
+#mainmenu a, #submenu a {
+  color:#132735;
+background: white;
+}
+
+#mainmenu a.active, #submenu a.active {
+  font-weight: bold;
+  color: #499cd5;
+}
+#bottomgif {
+background: url("../images/bottom.gif?1") no-repeat center;
+width: 433px;
+height: 7px;
+margin: auto;
+text-align: center;
+}
+body .add-article {
+  margin-bottom: 15px;
+  display: inline-block !important;
+}
