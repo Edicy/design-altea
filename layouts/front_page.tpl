@@ -19,7 +19,7 @@
    
    {% include "Mainmenu" %}
    
-   <div id="content" class="clearfix">
+   <div id="content" class="clearfix" data-search-indexing-allowed="true">
      {% content %}
             <div class="clearer"></div>
    </div>
@@ -30,7 +30,7 @@
    </div> <!-- //footer -->
           <div>
    {% if site.search.enabled %}
-   <form action="">
+   <form action="" class="edys-search">
     <div id="search"><input type="text" class="textbox" id="onpage_search" /></div>
    </form>
    {% endif %}</div>

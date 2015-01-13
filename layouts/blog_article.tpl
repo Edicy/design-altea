@@ -23,8 +23,8 @@
    <div id="content">
            
         
-            <div class="blog clearfix">
-       <h1><span class="gray">{{ article.created_at | format_date:"short" }}</span> {% editable article.title plain="true" %}</h1>
+            <div class="blog clearfix" data-search-indexing-allowed="true">
+       <h1 data-search-indexing-allowed="false"><span class="gray">{{ article.created_at | format_date:"short" }}</span> {% editable article.title plain="true" %}</h1>
               {% editable article.excerpt %}<br /><br />
               {% editable article.body %}
               <div class="clearer"></div>
@@ -78,7 +78,7 @@
    </div> <!-- //footer -->
           <div>
    {% if site.search.enabled %}
-   <form action="">
+   <form action="" class="edys-search">
     <div id="search"><input type="text" class="textbox" id="onpage_search" /></div>
    </form>
    {% endif %}</div>
