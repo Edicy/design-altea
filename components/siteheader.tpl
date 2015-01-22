@@ -14,4 +14,4 @@
 {% if site.search.enabled %}
 	{% stylesheet_link "assets/site_search/2.0/site_search.css" static_host="true" %}
         {% endif %}
-<!--[if IE]><link rel="stylesheet" type="test/css" href="http://static.edicy.com/assets/ie.css" /><![endif]-->
+{% if editmode %}<style>.clearfix { zoom:1; }</style>{% endif %}
