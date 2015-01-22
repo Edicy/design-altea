@@ -79,7 +79,7 @@
           <div>
    {% if site.search.enabled %}
    <form action="" class="edys-search">
-    <div id="search"><input type="text" class="textbox" id="onpage_search" /></div>
+    <div id="search"><input type="text" class="textbox" id="onpage_search" placeholder="{{  "search" | lc }}" /></div>
    </form>
    {% endif %}</div>
     <div class="right" id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>
