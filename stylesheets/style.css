@@ -83,3 +83,9 @@ body .add-article {
   margin-bottom: 15px;
   display: inline-block !important;
 }
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 1px;
+  line-height: 0 !important;
+}
